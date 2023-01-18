@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Otto.Feed.FeedAzureFunc.Models\Otto.Feed.FeedAzureFunc.Models.csproj" />
+    <ProjectReference Include="..\Otto.Feed.FeedAzureFunc.Repository\Otto.Feed.FeedAzureFunc.Repository.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Remove="AutoMapper" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="12.0.1" />
+  </ItemGroup>
+</Project>

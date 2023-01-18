@@ -1,0 +1,17 @@
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.deps.json
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.pdb
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Repository.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.pdb
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Repository.pdb
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.csproj.AssemblyReference.cache
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.GeneratedMSBuildEditorConfig.editorconfig
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.AssemblyInfoInputs.cache
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.AssemblyInfo.cs
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.csproj.CoreCompileInputs.cache
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.csproj.CopyComplete
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/refint/Otto.Feed.FeedAzureFunc.Core.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Core.pdb
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Core/obj/Debug/net6.0/ref/Otto.Feed.FeedAzureFunc.Core.dll
