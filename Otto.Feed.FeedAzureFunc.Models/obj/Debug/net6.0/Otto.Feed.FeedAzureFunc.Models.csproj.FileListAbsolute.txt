@@ -1,0 +1,12 @@
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.deps.json
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/bin/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.pdb
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.csproj.AssemblyReference.cache
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.GeneratedMSBuildEditorConfig.editorconfig
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.AssemblyInfoInputs.cache
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.AssemblyInfo.cs
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.csproj.CoreCompileInputs.cache
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/refint/Otto.Feed.FeedAzureFunc.Models.dll
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/Otto.Feed.FeedAzureFunc.Models.pdb
+/Users/venkatesh/Developer/VisualStudioProjects/Otto.Feed.FeedAzureFunc/Otto.Feed.FeedAzureFunc.Models/obj/Debug/net6.0/ref/Otto.Feed.FeedAzureFunc.Models.dll

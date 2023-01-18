@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "Otto.Feed.FeedAzureFunc.Models/1.0.0": {
+        "runtime": {
+          "Otto.Feed.FeedAzureFunc.Models.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Otto.Feed.FeedAzureFunc.Models/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
