@@ -1,0 +1,23 @@
+﻿//{
+//  "profiles": {
+//    "Otto.Feed.FeedAzureFunc.API": {
+//      "commandName": "Project",
+//      "commandLineArgs": "--port 7143",
+//      "launchBrowser": false
+//    }
+//  }
+//}
+
+{
+  "profiles": {
+    "Otto.Feed.FeedAzureFunc.API": {
+      "commandName": "Project"
+    },
+    "Docker": {
+      "commandName": "Docker",
+      "launchUrl": "{Scheme}://{ServiceHost}:{ServicePort}",
+      "httpPort": 33289,
+      "useSSL": false
+    }
+  }
+}
