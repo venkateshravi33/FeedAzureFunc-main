@@ -11,7 +11,7 @@ namespace Otto.Feed.FeedAzureFunc.Repository.Interfaces
 {
     public interface IFeedRepository
     {
-        public Task<feed> addFeedAsync(feed feed);
-        public Task<IEnumerable<feed>> GetFeedAsync(long user_id);
+        public Task<IEnumerable<feed>> addFeedAsync(feed feed);
+        public Task<IEnumerable<feed>> GetFeedAsync(reqfeed input);
     }
 }
