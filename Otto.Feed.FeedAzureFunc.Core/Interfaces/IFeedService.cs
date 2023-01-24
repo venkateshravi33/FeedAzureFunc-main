@@ -10,9 +10,9 @@ namespace Otto.Feed.FeedAzureFunc.Core.Interfaces
 {
 	public interface IFeedService
 	{
-        public Task<FeedDTO> addFeedAsync(FeedDTO feed);
+        public Task<IEnumerable<FeedDTO>> addFeedAsync(FeedDTO feed);
 
-        public Task<IEnumerable<FeedDTO>> GetFeedAsync(long user_id);
+        public Task<IEnumerable<FeedDTO>> GetFeedAsync(ReqFeedDTO input);
     }
 }
 

@@ -20,15 +20,15 @@ namespace Otto.Feed.FeedAzureFunc.Core.Services
             _repoWrapper = repoWrapper;
             _mapper = mapper;
         }
-        public async Task<FeedDTO> addFeedAsync(FeedDTO feed)
+        public async Task<IEnumerable<FeedDTO>> addFeedAsync(FeedDTO feed)
         {
             var data = await _repoWrapper.Feed.addFeedAsync(_mapper.Map<feed>(feed));
-            return _mapper.Map<FeedDTO>(data);
+            return _mapper.Map<List<FeedDTO>>(data);
         }
 
-        public async Task<IEnumerable<FeedDTO>> GetFeedAsync(long user_id)
+        public async Task<IEnumerable<FeedDTO>> GetFeedAsync(ReqFeedDTO input)
         {
-            var data = await _repoWrapper.Feed.GetFeedAsync(user_id);
+            var data = await _repoWrapper.Feed.GetFeedAsync(_mapper.Map<reqfeed>(input));
             return _mapper.Map<List<FeedDTO>>(data);
         }
     }
