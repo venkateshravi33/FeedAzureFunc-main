@@ -16,6 +16,7 @@ namespace Otto.Feed.FeedAzureFunc.API.Mappers
         public FeedProfile()
         {
             CreateMap<feed, FeedDTO>().ReverseMap();
+            CreateMap<reqfeed, ReqFeedDTO>().ReverseMap();
         }
 
     }
