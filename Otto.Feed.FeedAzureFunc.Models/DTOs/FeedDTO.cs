@@ -12,7 +12,6 @@ namespace Otto.Feed.FeedAzureFunc.Models.DTOs
         public string feed_id { get; set; }
         public string user_id { get; set; }
         public string is_viewed { get; set; }
-        //public List<string> post_collection { get; set; }
         public string[] post_collection { get; set; }
         public DateTime create_date { get; set; }
         public DateTime last_update_date { get; set; }

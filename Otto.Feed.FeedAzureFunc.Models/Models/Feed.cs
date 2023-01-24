@@ -13,10 +13,8 @@ namespace Otto.Feed.FeedAzureFunc.Models.Models
         public long feed_id { get; set; }
         [Required]
         public long user_id { get; set; }
-        [Required]
         public bool is_viewed { get; set; }
         [Required]
-        //public List<long> post_collection { get; set; }
         public long[] post_collection { get; set; }
         public DateTime create_date { get; set; }
         public DateTime last_update_date { get; set; }
