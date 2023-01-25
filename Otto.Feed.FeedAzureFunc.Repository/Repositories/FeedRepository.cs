@@ -92,39 +92,29 @@ namespace Otto.Feed.FeedAzureFunc.Repository.Repositories
             {
                 var feedlist = await connection.QueryAsync<dynamic>(query, parameters);
 
-                if(feedlist == null)
+                //Fallback feed when all feeds is_viewed = TRUE;
+
+                if (feedlist.ToList().Count == 0)
                 {
-                    return null;
+                    var fallback_feedlist = await connection.QueryAsync<dynamic>(fallback_query, parameters);
+
+                    List<feed> fallback_feeds = new();
+                    foreach (var fallback_feed in fallback_feedlist)
+                    {
+                        feed getfallback_feed = new()
+                        {
+                            feed_id = fallback_feed.feed_id,
+                            user_id = input.user_id,
+                            is_viewed = fallback_feed.is_viewed,
+                            post_collection = fallback_feed.post_collection,
+                            create_date = fallback_feed.create_date,
+                            last_update_date = fallback_feed.last_update_date
+                        };
+
+                        fallback_feeds.Add(getfallback_feed);
+                    }
+                    return fallback_feeds;
                 }
-
-                //Fallback feed when all is_viewed = TRUE;
-
-                //if (feedlist == null)
-                //{
-                //    var fallback_feedlist = await connection.QueryAsync<dynamic>(fallback_query, parameters);
-
-                //    if(fallback_feedlist == null)
-                //    {
-                //        return null;
-                //    }
-
-                //    List<feed> fallback_feeds = new();
-                //    foreach(var fallback_feed in fallback_feedlist)
-                //    {
-                //        feed getfallback_feed = new()
-                //        {
-                //            feed_id = fallback_feed.feed_id,
-                //            user_id = input.user_id,
-                //            is_viewed = fallback_feed.is_viewed,
-                //            post_collection = fallback_feed.post_collection,
-                //            create_date = fallback_feed.create_date,
-                //            last_update_date = fallback_feed.last_update_date
-                //        };
-
-                //        fallback_feeds.Add(getfallback_feed);
-                //    }
-                //    return fallback_feeds;
-                //}
 
                 List<feed> feeds = new ();
                 foreach (var feed in feedlist)
